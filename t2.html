@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="cleartype" content="on">
+
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/touch/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/touch/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/touch/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="../img/touch/apple-touch-icon-57x57-precomposed.png">
+        <link rel="shortcut icon" href="../img/touch/apple-touch-icon.png">
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <meta name="msapplication-TileImage" content="../img/touch/apple-touch-icon-144x144-precomposed.png">
+        <meta name="msapplication-TileColor" content="#222222">
+
+
+        <!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
+        <!--
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="">
+        -->
+
+        <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+        <!--
+        <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+        -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/fonts/stylesheet.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
+
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.css" />
+        <link rel="stylesheet" href="css/cja.min.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.js"></script>
+
+        <script>
+            $( "#idofpanel" )
+            .panel( "open" , optionsHash )
+            .then( function( options ){
+                $( "#idofpanel2" ).panel( "open" , options );
+            });
+        </script>
+
+
+    </head>
+    <body>
+
+        
+        <header>
+        </header>
+
+    <!-- Start page -->
+        <div data-role="page" id="t2" data-theme="a">
+
+            <div data-role="panel" id="mypanel" data-position="right" data-display="push">
+                <!-- panel content goes here -->
+                <div>
+                    Hi world, i'm a fucking panel
+                </div>
+            </div>
+            <div data-role="header" data-position="fixed" data-theme="c">
+                <img src="img/icon_tehillim-2.png" style="width:30px; float:right; margin-right:10px; margin-top:2px">
+                <h1>תהילים</h1>
+            </div><!-- /header -->
+
+            <div data-role="content">   
+                <article class="tehillim">
+                    <h1>פרק ב</h1>
+                    <p><a name="1"> </a>
+                        <span id="s1" class="pasuk">א</span> לָמָּה, רָגְשׁוּ גוֹיִם; וּלְאֻמִּים, יֶהְגּוּ רִיק.<br>
+                        <a name="2"> </a>
+                        <span id="s2" class="pasuk">ב</span> יִתְיַצְּבוּ, מַלְכֵי אֶרֶץ  וְרוֹזְנִים נוֹסְדוּ יָחַד:<br>עַל יְהוָה, וְעַל מְשִׁיחוֹ.<br>
+                        <a name="3"> </a>
+                        <span id="s3" class="pasuk">ג</span> נְנַתְּקָה, אֶת מוֹסְרוֹתֵימוֹ; וְנַשְׁלִיכָה מִמֶּנּוּ עֲבֹתֵימוֹ.<br>
+                        <a name="4"> </a>
+                        <span id="s4" class="pasuk">ד</span> יוֹשֵׁב בַּשָּׁמַיִם יִשְׂחָק: אֲדֹנָי, יִלְעַג לָמוֹ.<br>
+                        <a name="5"> </a>
+                        <span id="s5" class="pasuk">ה</span> אָז יְדַבֵּר אֵלֵימוֹ בְאַפּוֹ; וּבַחֲרוֹנוֹ יְבַהֲלֵמוֹ.<br>
+                        <a name="6"> </a>
+                        <span id="s6" class="pasuk">ו</span> וַאֲנִי, נָסַכְתִּי מַלְכִּי: עַל צִיּוֹן, הַר קָדְשִׁי.<br>
+                        <a name="7"> </a>
+                        <span id="s7" class="pasuk">ז</span> אֲסַפְּרָה, אֶל חֹק: יְהוָה, אָמַר אֵלַי בְּנִי אַתָּה אֲנִי, הַיּוֹם יְלִדְתִּיךָ.<br>
+                        <a name="8"> </a>
+                        <span id="s8" class="pasuk">ח</span> שְׁאַל מִמֶּנִּי וְאֶתְּנָה גוֹיִם, נַחֲלָתֶךָ; וַאֲחֻזָּתְךָ, אַפְסֵי אָרֶץ.<br>
+                        <a name="9"> </a>
+                        <span id="s9" class="pasuk">ט</span> תְּרֹעֵם, בְּשֵׁבֶט בַּרְזֶל: כִּכְלִי יוֹצֵר תְּנַפְּצֵם.<br>
+                        <a name="10"> </a>
+                        <span id="s10" class="pasuk">י</span> וְעַתָּה, מְלָכִים הַשְׂכִּילוּ; הִוָּסְרוּ, שֹׁפְטֵי אָרֶץ.<br>
+                        <a name="11"> </a>
+                        <span id="s11" class="pasuk">יא</span> עִבְדוּ אֶת יְהוָה בְּיִרְאָה; וְגִילוּ, בִּרְעָדָה.<br>
+                        <a name="12"> </a>
+                        <span id="s12" class="pasuk">יב</span> נַשְּׁקוּ בַר, פֶּן יֶאֱנַף וְתֹאבְדוּ דֶרֶךְ  כִּי יִבְעַר כִּמְעַט אַפּוֹ:<br>אַשְׁרֵי, כָּל חוֹסֵי בוֹ.
+                    </p>
+
+                </article>
+
+            </div><!-- /content -->
+
+            <div data-role="footer" data-position="fixed">        
+                <div data-role="controlgroup" data-type="horizontal" style="text-align:center">
+                    <a href="t3.html" data-prefetch  data-transition="flow" data-role="button" data-mini="true"><i class="icon-caret-left"></i></a>
+                    <a href="#mypanel" data-role="button" data-mini="true"><i class="icon-list"></i></a>
+                    <a href="t1.html" data-prefetch  data-transition="flow" data-role="button" data-mini="true"><i class="icon-caret-right"></i></a>
+                
+                </div><!-- /navbar -->
+            </div><!-- /footer -->
+            
+        </div><!-- /page -->
+
+
+        <footer></footer>
+        
+
+        <script src="js/vendor/zepto.min.js"></script>
+        <script src="js/helper.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+            g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+            s.parentNode.insertBefore(g,s)}(document,"script"));
+        </script>
+    </body>
+</html>
