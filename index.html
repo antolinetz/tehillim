@@ -36,11 +36,12 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/fonts/stylesheet.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        
-
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.css" />
         <link rel="stylesheet" href="css/cja.min.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/swipe.js"></script>    
         <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.js"></script>
 
@@ -67,162 +68,163 @@
     <!-- Start page -->
         <div data-role="page" data-theme="a" id="psalms-index">
 
-            <div data-role="header">
-                <h1><!-- Title --></h1>
+            <div data-role="header" data-position="fixed" data-theme="c">
+                <img src="img/icon_tehillim-2.png" style="width:30px; float:right; margin-right:10px; margin-top:2px">
+                <h1>תהילים</h1>
             </div><!-- /header -->
 
             <div data-role="content">   
                 <div class="index-container">
-                    <div class="pasuk-wrap"><a href="t1.html" data-prefetch  data-transition="flow" class="link-pasuk">א</a></div>
-                    <div class="pasuk-wrap"><a href="t2.html" data-prefetch  data-transition="flow" class="link-pasuk">ב</a></div>
-                    <div class="pasuk-wrap"><a href="t3.html" data-prefetch  data-transition="flow" class="link-pasuk">ג</a></div>
-                    <div class="pasuk-wrap"><a href="t4.html" data-prefetch  data-transition="flow" class="link-pasuk">ד</a></div>
-                    <div class="pasuk-wrap"><a href="t5.html" data-prefetch  data-transition="flow" class="link-pasuk">ה</a></div>
-                    <div class="pasuk-wrap"><a href="t6.html" data-prefetch  data-transition="flow" class="link-pasuk">ו</a></div>
-                    <div class="pasuk-wrap"><a href="t7.html" data-prefetch  data-transition="flow" class="link-pasuk">ז</a></div>
-                    <div class="pasuk-wrap"><a href="t8.html" data-prefetch  data-transition="flow" class="link-pasuk">ח</a></div>
-                    <div class="pasuk-wrap"><a href="t9.html" data-prefetch  data-transition="flow" class="link-pasuk">ט</a></div>
-                    <div class="pasuk-wrap"><a href="t10.html" data-prefetch  data-transition="flow" class="link-pasuk">י</a></div>
-                    <div class="pasuk-wrap"><a href="t11.html" data-prefetch  data-transition="flow" class="link-pasuk">יא</a></div>
-                    <div class="pasuk-wrap"><a href="t12.html" data-prefetch  data-transition="flow" class="link-pasuk">יב</a></div>
-                    <div class="pasuk-wrap"><a href="t13.html" data-prefetch  data-transition="flow" class="link-pasuk">יג</a></div>
-                    <div class="pasuk-wrap"><a href="t14.html" data-prefetch  data-transition="flow" class="link-pasuk">יד</a></div>
-                    <div class="pasuk-wrap"><a href="t15.html" data-prefetch  data-transition="flow" class="link-pasuk">טו</a></div>
-                    <div class="pasuk-wrap"><a href="t16.html" data-prefetch  data-transition="flow" class="link-pasuk">טז</a></div>
-                    <div class="pasuk-wrap"><a href="t17.html" data-prefetch  data-transition="flow" class="link-pasuk">יז</a></div>
-                    <div class="pasuk-wrap"><a href="t18.html" data-prefetch  data-transition="flow" class="link-pasuk">יח</a></div>
-                    <div class="pasuk-wrap"><a href="t19.html" data-prefetch  data-transition="flow" class="link-pasuk">יט</a></div>
-                    <div class="pasuk-wrap"><a href="t20.html" data-prefetch  data-transition="flow" class="link-pasuk">כ</a></div>
-                    <div class="pasuk-wrap"><a href="t21.html" data-prefetch  data-transition="flow" class="link-pasuk">כא</a></div>
-                    <div class="pasuk-wrap"><a href="t22.html" data-prefetch  data-transition="flow" class="link-pasuk">כב</a></div>
-                    <div class="pasuk-wrap"><a href="t23.html" data-prefetch  data-transition="flow" class="link-pasuk">כג</a></div>
-                    <div class="pasuk-wrap"><a href="t24.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t25.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t26.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t27.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t28.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t29.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t30.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t31.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t32.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t33.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t34.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t35.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t36.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t37.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t38.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t39.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t40.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t41.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t42.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t43.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t44.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t45.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t46.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t47.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t48.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t49.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t50.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t51.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t52.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t53.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t54.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t55.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t56.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t57.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t58.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t59.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t60.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t61.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t62.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t63.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t64.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t65.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t66.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t67.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t68.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t69.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t70.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t71.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t72.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t73.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t74.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t75.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t76.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t77.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t78.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t79.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t80.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t81.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t82.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t83.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t84.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t85.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t86.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t87.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t88.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t89.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t90.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t91.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t92.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t93.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t94.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t95.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t96.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t97.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t98.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t99.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t100.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t101.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t102.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t103.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t104.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t105.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t106.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t107.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t108.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t109.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t110.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t111.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t112.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t113.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t114.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t115.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t116.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t117.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t118.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t119.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t120.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t121.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t122.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t123.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t124.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t125.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t126.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t127.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t128.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t129.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t130.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t131.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t132.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t133.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t134.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t135.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t136.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t137.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t138.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t139.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t140.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t141.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t142.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t143.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t144.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t145.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t146.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t147.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t148.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t149.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
-                    <div class="pasuk-wrap"><a href="t150.html" data-prefetch  data-transition="flow" class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t1.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">א</a></div>
+                    <div class="pasuk-wrap"><a href="t2.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">ב</a></div>
+                    <div class="pasuk-wrap"><a href="t3.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">ג</a></div>
+                    <div class="pasuk-wrap"><a href="t4.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">ד</a></div>
+                    <div class="pasuk-wrap"><a href="t5.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">ה</a></div>
+                    <div class="pasuk-wrap"><a href="t6.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">ו</a></div>
+                    <div class="pasuk-wrap"><a href="t7.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">ז</a></div>
+                    <div class="pasuk-wrap"><a href="t8.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">ח</a></div>
+                    <div class="pasuk-wrap"><a href="t9.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">ט</a></div>
+                    <div class="pasuk-wrap"><a href="t10.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">י</a></div>
+                    <div class="pasuk-wrap"><a href="t11.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">יא</a></div>
+                    <div class="pasuk-wrap"><a href="t12.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">יב</a></div>
+                    <div class="pasuk-wrap"><a href="t13.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">יג</a></div>
+                    <div class="pasuk-wrap"><a href="t14.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">יד</a></div>
+                    <div class="pasuk-wrap"><a href="t15.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">טו</a></div>
+                    <div class="pasuk-wrap"><a href="t16.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">טז</a></div>
+                    <div class="pasuk-wrap"><a href="t17.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">יז</a></div>
+                    <div class="pasuk-wrap"><a href="t18.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">יח</a></div>
+                    <div class="pasuk-wrap"><a href="t19.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">יט</a></div>
+                    <div class="pasuk-wrap"><a href="t20.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">כ</a></div>
+                    <div class="pasuk-wrap"><a href="t21.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">כא</a></div>
+                    <div class="pasuk-wrap"><a href="t22.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">כב</a></div>
+                    <div class="pasuk-wrap"><a href="t23.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">כג</a></div>
+                    <div class="pasuk-wrap"><a href="t24.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t25.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t26.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t27.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t28.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t29.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t30.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t31.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t32.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t33.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t34.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t35.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t36.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t37.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t38.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t39.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t40.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t41.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t42.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t43.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t44.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t45.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t46.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t47.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t48.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t49.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t50.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t51.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t52.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t53.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t54.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t55.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t56.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t57.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t58.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t59.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t60.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t61.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t62.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t63.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t64.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t65.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t66.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t67.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t68.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t69.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t70.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t71.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t72.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t73.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t74.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t75.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t76.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t77.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t78.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t79.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t80.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t81.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t82.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t83.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t84.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t85.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t86.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t87.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t88.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t89.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t90.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t91.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t92.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t93.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t94.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t95.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t96.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t97.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t98.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t99.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t100.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t101.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t102.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t103.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t104.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t105.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t106.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t107.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t108.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t109.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t110.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t111.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t112.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t113.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t114.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t115.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t116.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t117.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t118.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t119.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t120.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t121.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t122.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t123.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t124.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t125.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t126.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t127.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t128.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t129.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t130.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t131.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t132.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t133.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t134.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t135.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t136.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t137.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t138.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t139.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t140.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t141.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t142.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t143.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t144.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t145.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t146.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t147.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t148.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t149.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
+                    <div class="pasuk-wrap"><a href="t150.html" data-prefetch  data-transition="slide" data-direction="reverse"  class="link-pasuk">1</a></div>
 
 
                 </div>
